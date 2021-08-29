@@ -74,7 +74,15 @@ h2 {
     display:grid;
     padding: 15% 7% 15% 7%;
     border-radius: 5px;
+}
 
+input {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+}
+input:focus {
+    outline: 3px solid #7FCDD9;
 }
 
 .form-block > div {
